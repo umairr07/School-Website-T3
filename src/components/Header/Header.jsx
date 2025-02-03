@@ -78,7 +78,7 @@ const Header = () => {
               onClick={() => setMenu(!menu)}
             >
               {!menu ? (
-                <MdMenuOpen className="text-3xl mt-2" />
+                <MdMenuOpen className="text-3xl mt-2 text-purple-600" />
               ) : (
                 <HiX className="text-2xl" />
               )}
@@ -99,7 +99,7 @@ const Header = () => {
               />
             </Link>
             <button
-              className="ml-auto mr-9 mt-1 text-blue-600 hover:text-red-500"
+              className="ml-auto mr-9 mt-1 text-purple-600 hover:text-red-500"
               onClick={() => setMenu(false)}
             >
               <HiX className="text-2xl text-forText" />
